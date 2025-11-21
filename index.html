@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio | Md imtiyaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h2>Md imtiyaz</h2>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#certificates"> CERTIFICATES </a>
+      <a href="#contact">CONTECT</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hi, I'm Md imtiyaz 👋</h1>
+      <h3>Student | Web Developer | Learner</h3>
+      <p>
+        I'm a passionate web developer who loves building creative and
+        responsive websites using HTML, CSS, and JavaScript.
+      </p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <img src="imtiyaz.jpg" alt="Profile Photo" />
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>To work as a developer using my skills in HTML, CSS, javascript and React to create high-quality, user-
+    friendly websites and applications, while continuously leaning and contributing to the company's success.I
+    dont's just want to be an employee, but a resion for the company's success someone the organization can  rely on </p>
+
+    <h2>About Myself</h2>
+    <p>I'm a computer science student who enjoys solving problems and leaming nku technologies. 
+    I love designing interactive websites and improving user experience through clean and effective Ul. </p>
+  </section>
+
+
+    <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="bar"><div style="width: 90%">90%</div></div>
+
+      <p>CSS</p>
+      <div class="bar"><div style="width: 70%">70%</div></div>
+
+      <p>JavaScript</p>
+      <div class="bar"><div style="width: 65%">65%</div></div>
+
+      <p>C language</p>
+      <div class="bar"><div style="width: 95%">95%</div></div>
+
+
+      <p>C++</p>
+      <div class="bar"><div style="width: 90%">90%</div></div>
+
+      <p>DSA</p>
+      <div class="bar"><div style="width: 60%">75%</div></div>
+
+      <p>My SQL</p>
+      <div class="bar"><div style="width: 80%">80%</div></div>
+
+      <p>OOP'S</p>
+      <div class="bar"><div style="width: 80%">80%</div></div>
+
+      <p>DOT NET(C#)</p>
+      <div class="bar"><div style="width: 80%">85%</div></div>
+
+
+
+
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+
+      <div class="project">
+        <h3>A UNIVERSITY WEBSITE </h3>
+        <p>->.Developed a responsive university website with Courses, Campus, 
+        Student Feedback, and Registration Form using HTML & CSS.</p>
+        <p>->.Focused on clean Ul design, smooth navigation, and  mobile-friendly
+             responsiveness to enhance user experience.</p>
+      </div>
+
+
+      <div class="project">
+        <h3> STUDENT MANAGEMENT SYSTEM</h3>
+       <p>->.Developed a Student Management System in C language using structures, file
+        handling, and functions to manage student records efficiently.</p>
+         <p>->.Implemented features to add, scarch, cdit, and delete student data with 
+         persistent storage using binary files for real-world data management simulation. </p>
+     
+      </div>
+
+      <div class="project">
+        <h3>QUIZ GAME(KBC TYPE)</h3>
+        <p>->.Made a Mini KBC Quiz Game in C language using loops and conditions</p>
+        <p>->·Added score system and user interaction for real-time gameplay</p>
+      </div>
+
+      <div class="project">
+        <h3>WEB BASED INTERACTIVE BANKING SYSTEM</h3>
+       <p>Developed a responsive Smart Banking web application using HTML, CSS, and
+         JavaScript with features like login authentication, deposit/withdraw, fund transfer, loan EMl calculator, CSV export, and transaction tracking stored in LocalStorage.</p>
+      </div>
+
+      <div class="project">
+        <h3>CALCULATOR APP</h3>
+        <p>A simple calculator using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project">
+        <h3> PORTFOLIO WEBSITE</h3>
+        <p>My personal responsive portfolio website created using HTML & CSS And Javascript</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- New Certificate Section Added -->
+  <section class="certificates" id="certificates">
+    <h2>My Certificates</h2>
+
+    <div class="certificate-gallery">
+      <img src="photo/certificate1.jpg" alt="Certificate 1">
+      <img src="photo/certificate2.jpg" alt="Certificate 2">
+      <img src="photo/certificate3.jpg" alt="Certificate 3">
+       <img src="photo/certificate4.jpg" alt="Certificate 3">
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <p>Md Imtiyaz | All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    function sendMessage(e) {
+      e.preventDefault();
+      alert("Thank you for your message! I’ll get back to you soon. 😊");
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
